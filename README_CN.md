@@ -8,7 +8,7 @@
 
 > 这里的“复古”指的是我的课程，而不是指这个 repo。
 
-##简介
+## 简介
 
 使用 Docker 和 Docker Compose 轻松进行 PHP + MySQL 开发。
 
