@@ -2,7 +2,7 @@
 
 > This is a fork of [Docker NGINX PHP MySQL PhpMyadmin](https://github.com/rzrokon/Docker-NGINX-PHP-MySQL-PhpMyadmin) with customizations, mainly for macOS with apple Silicon. 
 
-> This project was created specifically for my traditional PHP and Web course at the university. As I'm using an Apple Silicon Mac, the `arm64v8/phpmyadmin` has been used, you can replace it with just `phpmyadmin` if you are amd64. 
+> This project was created specifically for my traditional PHP and Web course at the university. As I'm using an Apple Silicon Mac, the `arm64v8/phpmyadmin` has been used, you can replace it with just `phpmyadmin` if you are amd64.
 
 > If you require production-level tools, I recommend [DDEV](https://ddev.com/). (I discovered this after making this repo from the the original  repo.)
 
