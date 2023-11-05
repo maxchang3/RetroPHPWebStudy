@@ -4,7 +4,9 @@
 
 > This project was created specifically for my traditional PHP and Web course at the university. As I'm using an Apple Silicon Mac, the `arm64v8/phpmyadmin` has been used, you can replace it with just `phpmyadmin` if you are amd64.
 
-> If you require production-level tools, I recommend [DDEV](https://ddev.com/). (I discovered this after making this repo from the the original  repo.)
+> If you require production-level tools, I recommend [DDEV](https://ddev.com/). (I discovered this after making this repo from the the original repo.)
+
+> "Retro" pertains to my course, not this repository.
 
 
 # Intro
