@@ -1,14 +1,13 @@
 # Retro PHP Web Study Environment
 
-Easy PHP MySQL development with Docker and Docker Compose.
+> This is a fork of [Docker NGINX PHP MySQL PhpMyadmin](https://github.com/rzrokon/Docker-NGINX-PHP-MySQL-PhpMyadmin) with customizations, mainly for macOS with apple Silicon. 
 
-This is a fork of [Docker NGINX PHP MySQL PhpMyadmin](https://github.com/rzrokon/Docker-NGINX-PHP-MySQL-PhpMyadmin) with customizations, mainly for macOS with apple Silicon.
+> This project was created specifically for my traditional PHP and Web course at the university. As I'm using an Apple Silicon Mac, the `arm64v8/phpmyadmin` has been used, you can replace it with just `phpmyadmin` if you are amd64. 
 
-This project was just built for my old-school PHP & Web course at university. Since I'm using an Apple Silicon Mac, this project is customized for arm64.
+> If you require production-level tools, I recommend [DDEV](https://ddev.com/). ((I discovered this after making this repo from the the original  repo.)
 
-# The Original README
 
-# Docker NGINX PHP MySQL PhpMyadmin
+# Intro
 
 Easy PHP MySQL development with Docker and Docker Compose.
 
@@ -28,7 +27,8 @@ Contents:
 
 ## Requirements
 
-Make sure you have the latest versions of **Docker** and **Docker Compose** installed on your machine.
+Make sure you have the latest versions of **Docker** and **Docker Compose** installed on your machine. For Windows and macOS users, you need to install **Docker Desktop**. For macOS users, it is recommended to replace Docker Desktop with [Orbstack](https://orbstack.dev/) to enhance your user experience.
+
 
 Clone this repository or copy the files from this repository into a new folder. In the **docker-compose.yml** file you may change the IP address (in case you run multiple containers) or the database from MySQL to MariaDB.
 
@@ -49,7 +49,7 @@ docker-compose up
 This creates two new folders next to your `docker-compose.yml` file.
 
 * `data` – used to store and restore database dumps and initial databse for import
-* `web` – the location of your php application files
+* `www` – the location of your php application files
 
 The containers are now built and running. You should be able to access the WordPress installation with the configured IP in the browser address. By default it is `http://127.0.0.1`.
 
