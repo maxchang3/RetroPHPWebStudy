@@ -1,3 +1,3 @@
-FROM php:7.2-fpm
+FROM nfqlt/php82-fpm
  
 RUN docker-php-ext-install mysqli
