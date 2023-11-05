@@ -40,7 +40,7 @@ services:
             - db:db
 
     db:
-        image: mysql:latest
+        image: mysql:8.2.0
         ports:
             - ${IP}:3300:3306
         command: "mysqld --init-file /data/application/init.sql"
