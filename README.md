@@ -1,3 +1,5 @@
+[简体中文](README_CN.md)
+
 # Retro PHP Web Study Environment
 
 > This is a fork of [Docker NGINX PHP MySQL PhpMyadmin](https://github.com/rzrokon/Docker-NGINX-PHP-MySQL-PhpMyadmin) with customizations, mainly for macOS with apple Silicon. 
