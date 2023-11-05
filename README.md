@@ -6,7 +6,8 @@ This is a fork of [Docker NGINX PHP MySQL PhpMyadmin](https://github.com/rzrokon
 
 This project was just built for my old-school PHP & Web course at university. Since I'm using an Apple Silicon Mac, this project is customized for arm64.
 
-# The Original README Below
+# The Original README
+
 # Docker NGINX PHP MySQL PhpMyadmin
 
 Easy PHP MySQL development with Docker and Docker Compose.
