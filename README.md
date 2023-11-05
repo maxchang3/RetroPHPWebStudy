@@ -1,6 +1,8 @@
-# Retro (Docker) PHP Web Study Environment (for arm64)
+# Retro PHP Web Study Environment
 
-Fork of [Docker NGINX PHP MySQL PhpMyadmin](https://github.com/rzrokon/Docker-NGINX-PHP-MySQL-PhpMyadmin) with customizations for arm64 device, mainly for macOS with apple Silicon.
+Easy PHP MySQL development with Docker and Docker Compose.
+
+This is a fork of [Docker NGINX PHP MySQL PhpMyadmin](https://github.com/rzrokon/Docker-NGINX-PHP-MySQL-PhpMyadmin) with customizations for arm64 device, mainly for macOS with apple Silicon.
 
 This project was just built for my old-school PHP & Web course at university. Since I'm using an Apple Silicon Mac, this project is customized for arm64.
 
