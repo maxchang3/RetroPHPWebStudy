@@ -11,7 +11,7 @@
 > "Retro" pertains to my course, not this repository.
 
 
-# Intro
+## Intro
 
 Easy PHP MySQL development with Docker and Docker Compose.
 
