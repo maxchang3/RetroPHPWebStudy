@@ -1,3 +1,5 @@
+The branch using php 5.3 and mysql 5.7 is [here](https://github.com/maxchang3/RetroPHPWebStudy/tree/mysql57-php53). (can be used to build some projects that rely on older versions of php + mysql)
+
 [简体中文](README_CN.md)
 
 # Retro PHP Web Study Environment

@@ -1,3 +1,5 @@
+使用 php 5.3 和 mysql 5.7 的分支在[这里](https://github.com/maxchang3/RetroPHPWebStudy/tree/mysql57-php53)。（可用于搭建一些依赖于旧版 php + mysql 的项目）
+
 # Retro PHP Web Study Environment
 
 > 这是 [Docker NGINX PHP MySQL PhpMyadmin](https://github.com/rzrokon/Docker-NGINX-PHP-MySQL-PhpMyadmin) 的一个分支，做了一些自定义，主要面向 Apple Silicon macOS 用户。
