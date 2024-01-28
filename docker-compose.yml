@@ -9,6 +9,7 @@ services:
         volumes:
             - ./www:/srv/www/api
             - ./config/php/www.conf:/usr/local/etc/php-fpm.d/www.conf
+            - ./config/php/php.ini:/usr/local/etc/php/php.ini
         environment:
             MYSQL_USER: ${DB_USER}
             MYSQL_PASSWORD: ${DB_PASSWORD}
@@ -33,14 +34,15 @@ services:
             PMA_HOST: db
             PMA_PORT: 3306
             MYSQL_ROOT_PASSWORD: "${DB_PASSWORD}"
-            
+        volumes:
+            - ./config/php/php.ini:/usr/local/etc/php/php.ini
         ports:
             - ${IP}:8000:80
         links:
             - db:db
 
     db:
-        image: mysql:8.2.0
+        image: biarms/mysql:5.7
         ports:
             - ${IP}:3300:3306
         command: "mysqld --init-file /data/application/init.sql"
